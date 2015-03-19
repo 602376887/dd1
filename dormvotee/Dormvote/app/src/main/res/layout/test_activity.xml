@@ -1,0 +1,68 @@
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bt_net_publicdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="公共数据接口" />
+
+        <Button
+            android:id="@+id/bt_net_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登陆" />
+
+        <Button
+            android:id="@+id/bt_net_getRoomInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取房间详情" />
+
+        <Button
+            android:id="@+id/bt_net_teammember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="成员列表" />
+
+        <Button
+            android:id="@+id/bt_net_roomlist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="任务列表" />
+
+        <Button
+            android:id="@+id/bt_net_voteroom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打分" />
+
+        <Button
+            android:id="@+id/bt_net_changeroomstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="改变宿舍状态" />
+
+
+        <Button
+            android:id="@+id/bt_net_voteresult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打分结果" />
+
+        <Button
+            android:id="@+id/bt_net_getUptoken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获取七牛云Token" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_up_pic" android:title="继续上传图片"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/item_reset_status" android:title="重置宿舍状态"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>
